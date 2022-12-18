@@ -14,28 +14,50 @@
 </head>
 <body>
     <div class="modal-container">
-        <div class="modal">
-            <button class="modal-dialog">&times;</button>
-            <h2 class="modal-header"></h2>
-            <p class="modal_body"></p>
+        <div class="modal-body">
+            <button class="modal_btn">&times;</button>
+            <h2 class="modal_title">Otsikko tähän</h2>
+            <p class="modal_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quidem quia. 
+                Porro rem iusto excepturi animi voluptate maiores officiis quasi itaque maxime consectetur quidem quis illo, 
+                dolorum ipsum odio? Accusamus, blanditiis!</p>
         </div>
     </div>
     <!-- Notes application code starts here -->
     <div class="form-container">
-        <h1>Notes List</h1>
-        <h3>Add a new note:</h3>
+        <h1>Muistiinpanot</h1>
+        <h3>Lisää uusi viesti:</h3>
         <!-- <div class="message alert-message">Hi, I'm a message</div> -->
         <form>
-            <label for="title">Name
-                <input type="text" id="title" placeholder="Enter a note title.">
+            <label for="title">Nimi
+                <input type="text" id="title" placeholder="Anna viestin otsikko.">
             </label>
-            <label for="note">Note
-                <textarea name="note" id="note" cols="30" rows="10" placeholder="Enter note text."></textarea>
+            <label for="note">Viesti
+                <textarea name="note" id="note" cols="30" rows="10" placeholder="Anna viestin teksti."></textarea>
             </label>
+            <input type="submit">
         </form>
     </div>
-    <a href="https://pixabay.com/fi/photos/sein%c3%a4%c3%a4n-tausta-rakenne-grunge-1217083/">BG image from Pixabay</a>
-    <div class="note-container"></div>
+    <div class="note-container">
+        <div class="note">
+            <h2 class="note_title">Sample note Title</h2>
+            <p class="note_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Velit debitis ut temporibus, eius saepe consectetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Velit debitis ut temporibus, eius saepe consectetur!</p>
+            <div class="note_btns">
+                <button class="note_btn note_view">Katso tarkemmin</button>
+                <button class="note_btn note_delete">Poista viesti</button>
+            </div>
+        </div>
+        <div class="note">
+            <h2 class="note_title">Sample note Title</h2>
+            <p class="note_body">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Velit debitis ut temporibus, eius saepe consectetur!</p>
+            <div class="note_btns">
+                <button class="note_btn note_view">Katso tarkemmin</button>
+                <button class="note_btn note_delete">Poista viesti</button>
+            </div>
+        </div>
+    </div>
 
 
 
