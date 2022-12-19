@@ -40,13 +40,13 @@ function addNoteToList(note) {
 }
 
 //Fuction: Add important mark to a note
-function importantCheck() {
-    let checkedBox = document.getElementById('flexCheckDefault');
-    let noteImportant = document.getElementById('note');
-    if (checkedBox.checked == true) {
-        noteImportant.setAttribute('class', 'note_important');
-    }  
-}
+// function importantCheck() {
+//     let checkedBox = document.getElementById('flexCheckDefault');
+//     let noteImportant = document.getElementById('note');
+//     if (checkedBox.checked == true) {
+//         noteImportant.setAttribute('class', 'note_important');
+//     }  
+// }
 
 // Function: Show alert message
 
