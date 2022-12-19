@@ -178,6 +178,13 @@ form [type=submit]:hover, form [type=submit]:focus {
   font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+.note-container .note_today {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.note-container #flexCheckDefault {
+  border: 2px solid red;
+}
 .note-container .note_body {
   overflow: hidden;
   max-height: 8rem;
