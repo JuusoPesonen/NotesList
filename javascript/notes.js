@@ -4,7 +4,6 @@ const noteContainer = document.querySelector('.note-container');
 const modalContainer = document.querySelector('.modal-container');
 const form = document.querySelector('form');
 const titleInput = document.querySelector('#title');
-const checkedBox = document.getElementById('flexCheckDefault');
 
 //Set current date on list
 let options = { weekday: 'long', month: 'short', day: 'numeric'};
@@ -21,7 +20,6 @@ class Note{
         this.id = Math.random();
     }
 }
-//Fuction: Add important mark to a note
 
 //Function: Create a new note in UI
 
@@ -39,6 +37,15 @@ function addNoteToList(note) {
     </div>
     `;
     noteContainer.appendChild(newListNote);
+}
+
+//Fuction: Add important mark to a note
+function importantCheck() {
+    let checkedBox = document.getElementById('flexCheckDefault');
+    let noteImportant = document.getElementById('note');
+    if (checkedBox.checked == true) {
+        noteImportant.setAttribute('class', 'note_important');
+    }  
 }
 
 // Function: Show alert message
