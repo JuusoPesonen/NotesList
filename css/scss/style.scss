@@ -215,10 +215,13 @@ form {
         margin-bottom: .5rem;
     }
 
-    #flexCheckDefault {
+    .note_important {
+        border-radius: 5px;
         border: 2px solid red;
     }
-
+    #flexCheckDefault:checked {
+        border: 2px solid red;
+    }
     .note_body  {
         overflow: hidden;
         max-height: 8rem;

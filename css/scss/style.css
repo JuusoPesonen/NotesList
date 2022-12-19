@@ -182,7 +182,11 @@ form [type=submit]:hover, form [type=submit]:focus {
   font-size: 1rem;
   margin-bottom: 0.5rem;
 }
-.note-container #flexCheckDefault {
+.note-container .note_important {
+  border-radius: 5px;
+  border: 2px solid red;
+}
+.note-container #flexCheckDefault:checked {
   border: 2px solid red;
 }
 .note-container .note_body {
